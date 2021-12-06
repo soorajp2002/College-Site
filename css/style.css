@@ -661,7 +661,7 @@ footer .footer .copyright a{
   }
 .marquee-child {
   display: block;
-
+  width: 1024px;
   position: relative;
   animation: marquee 15s linear infinite; 
 }
