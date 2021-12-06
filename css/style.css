@@ -508,9 +508,6 @@ section .section-title {
   border: none;
   background-color: transparent;
 }
-.btn.call:hover{
-  border: 1px solid rgb(167, 167, 167);
-}
 
 .btn.call i{
   margin-right: 0.5rem;
