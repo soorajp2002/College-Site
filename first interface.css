@@ -7,10 +7,6 @@ body {
 
     
 }
-:root {
-  --color: rgb(255, 255, 255);
-  --color1: rgb(61, 22, 202);
-}
 
 
 
@@ -20,33 +16,9 @@ body {
 
 
 
-  
 
 
 
-.dds{
-  border-top-right-radius:20px;
-	border-bottom-right-radius:20px;
-	border-top:1px solid #ccc;
-	border-right:1px solid #ccc;
-}
-
-
-
-
-
-#aacf{
-  background-color: white;
-  color: #000000;
-
-
-}
-
-
-
-.awa h3{
-  color: #000000
-}
 
 
 
@@ -450,4 +422,8 @@ section .section-title{
 	-webkit-transition: .5s all ease;
 	-moz-transition: .5s all ease;
 	transition: .5s all ease;
+}
+.nav-link{
+  color: #000000;
+  
 }
