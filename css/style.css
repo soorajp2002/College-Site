@@ -1,6 +1,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   background: #fff;
+  overflow-x: hidden;
 }
 
 p, td, tr {
@@ -14,6 +15,7 @@ h1, h2 {
 
 a {
   text-decoration: none !important;
+  color: #000;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Pacifico&family=Righteous&family=Roboto&family=Roboto+Condensed&family=Ubuntu&display=swap');
@@ -22,6 +24,12 @@ a {
   padding-top: 1rem;
   padding-bottom: 1rem;
   position: relative;
+}
+.blog_section h2{
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  padding-top:0.5rem;
 }
 .blog_section .blog_content .blog_item {
   box-shadow: 0 0 11px 0 rgba(6, 22, 58, 0.2);
@@ -70,7 +78,7 @@ a {
   bottom: 0;
   padding: 1rem;
   width: 100%;
-  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5), rgba(0,0,0,1));
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7), rgba(0,0,0,1));
 }
 .blog_image .title h5 a{
   color:#fff;
@@ -96,7 +104,7 @@ a {
   color: rgb(74, 255, 74);
 }
 .blog_image .details p .date{
-  color: rgb(255, 74, 74);
+  color: rgb(74, 255, 74);
 }
 .blog_section .blog_content .blog_item .blog_details .blog_title h5 a {
   color: #020d26;
@@ -280,7 +288,7 @@ a {
 }
 
 .section-block-grey {
-  padding: 90px 0px 90px 0px;
+  padding: 30px 0px 0px 0px;
   background-color: #f9f9f9;
 }
 
@@ -318,7 +326,7 @@ a {
 }
 
 .serv-section-2-icon i {
-  color: #5f27cd;
+  color: var(--lightblue);
   font-size: 30px;
   line-height: 65px;
   transition: all 0.4s ease-in-out;
@@ -357,7 +365,6 @@ a {
 
 .serv-section-2 p {
   margin-top: 25px;
-  padding-right: 50px;
 }
 
 .serv-section-2:hover .serv-section-2-icon i {
@@ -365,7 +372,7 @@ a {
 }
 
 .serv-section-2:hover:before {
-  background: #5f27cd;
+  background: var(--lightblue);
 }
 
 
@@ -485,7 +492,7 @@ section .section-title {
 
 .navbar {
   padding: 0;
-  position: relative;
+  position: sticky;
   width: 100%;
   transition: top 0.5s;
   z-index: 10;
@@ -545,7 +552,7 @@ footer .footer .copyright{
   padding: 1rem;
 }
 footer .footer .copyright span{
-  color: #ce7f00;
+  color: #fa9900;
 }
 footer .footer .copyright a{
   color: #fff;
@@ -651,6 +658,7 @@ footer .footer .copyright a{
 }
 .news span{
   color: var(--lightblue);
+  font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -674,6 +682,117 @@ footer .footer .copyright a{
     left: 100%;
   }
   100% {
-    left: -147px /* same as your text width */
+    left: -70% /* same as your text width */
+  }
+}
+
+.scholarship h2{
+  text-align: center;
+  padding: 1rem;
+  color: black;
+  border: 9px solid transparent;
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  border-bottom: 1px solid var(--lightblue);
+}
+@media(max-width: 775px){
+  .scholarship h2{
+    font-size: 1.5rem;
+    width: 100%;
+  }
+}
+@media(max-width: 339px){
+  .scholarship h2{
+    font-size: 1.2rem;
+    width: 100%;
+  }
+}
+.scholarship p{
+  text-align: center;
+  padding: 1rem;
+  color: black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+.scholarship .scholarshiptext{
+  text-align: left;
+  margin: 0;
+  padding:0;
+}
+.scholarship img{
+  max-width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+@media(max-width: 767px){
+  .scholarship h4{
+    text-align: center;
+  }
+  .blog_section{
+    padding-bottom: 0rem;
+  }
+}
+@media(max-width: 355px){
+  .scholarship img{
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
+.scholarship .row{
+  margin-bottom: 2rem;
+}
+
+.department h4{
+  text-align: center;
+}
+.department a{
+  text-align: center;
+  width: 100%;
+}
+.section-heading h2{
+  text-align: center;
+}
+.contact p{}
+
+.map{
+  width:600px;
+  height: 300px;
+  border: none;
+}
+@media(max-width: 991px){
+  .map{
+    width:100%;
+    height: 300px;
+    border: none;
+    margin-top: 2rem;
+  }
+  .contact h2{
+    text-align: center;
+  }
+  .contact p{
+    text-align: center;
+  }
+  .contact img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
