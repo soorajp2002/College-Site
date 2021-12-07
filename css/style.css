@@ -645,12 +645,7 @@ footer .footer .copyright a{
   background-color: rgb(0, 0, 0);
   color: #fff !important;
 }
-@media(max-width: 319px){
-  .slider_container .row_images img{
-      margin: 0.5rem;
-      max-width: 250px;
-  }
-}
+
 .news p{
  padding:0.5rem;
  width: 100%;
@@ -682,7 +677,7 @@ footer .footer .copyright a{
     left: 100%;
   }
   100% {
-    left: -70% /* same as your text width */
+    left: -1024px; /* same as your text width */
   }
 }
 
