@@ -163,7 +163,7 @@ a {
 
 .blog_section .blog_content .owl-nav .owl-prev {
   position: absolute;
-  left: -27px;
+  left: -20px;
   top: 33%;
   border: 5px solid #fff;
   text-align: center;
@@ -191,7 +191,7 @@ a {
 
 .blog_section .blog_content .owl-nav .owl-next {
   position: absolute;
-  right: -27px;
+  right: -20px;
   top: 33%;
   border: 5px solid #fff;
   text-align: center;
